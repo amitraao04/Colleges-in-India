@@ -1,0 +1,34 @@
+body{
+    background-color: #0FA4AF;
+}
+h1{
+    text-align: center;
+    color: #003135;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+button{
+    margin: 10px;
+    height: 40px;
+    width: 60px;
+    border: 2px solid black;
+    border-radius: 25%;
+    background-color: #1c828b;
+    color: wheat;
+}
+
+button:hover{
+    cursor: pointer;
+    transform:scale(1.1);
+    
+}
+input{
+    height: 40px;
+    border: 2px solid black;
+    /* border-radius: 15%; */
+}
